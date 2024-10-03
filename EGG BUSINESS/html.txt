@@ -1,0 +1,41 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    meta name=description content=Order fresh eggs directly from our farm. Call us to place an order or visit our farm.
+    titleEgg Business  Ghalyan Pig & Fish Farmtitle
+    link rel=stylesheet href=styles.css
+head
+body
+    header
+        div class=language-toggle
+            button onclick=setLanguage('en')Englishbutton
+            button onclick=setLanguage('hi')हिंदीbutton
+        div
+        div class=logo
+            img src=logo.png alt=Ghalyan Pig & Fish Farm Logo
+        div
+        h1 id=welcome-textWelcome to Ghalyan Pig & Fish Farmh1
+    header
+
+    section id=about
+        h2 id=about-us-titleAbout Ush2
+        p id=about-us-textWe provide fresh and high-quality eggs directly from our farm. Visit our farm or call us for bulk orders. Your satisfaction and health are our priority.p
+    section
+
+    section id=contact
+        h2 id=contact-us-titleContact Ush2
+        p id=contact-infoFor orders and inquiries, please callp
+        a id=call-us href=tel+91XXXXXXXXXX+91XXXXXXXXXXa
+        p id=visit-usYou can also visit our farm atp
+        p id=address[Farm Address Here]p
+    section
+
+    footer
+        p id=footer-text© 2024 Ghalyan Pig & Fish Farm  All rights reservedp
+    footer
+
+    script src=script.jsscript
+body
+html

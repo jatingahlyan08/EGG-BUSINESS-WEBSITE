@@ -1,0 +1,36 @@
+const texts = {
+    en: {
+        welcome: "Welcome to Ghalyan Pig & Fish Farm",
+        aboutUsTitle: "About Us",
+        aboutUsText: "We provide fresh and high-quality eggs directly from our farm. Visit our farm or call us for bulk orders. Your satisfaction and health are our priority.",
+        contactUsTitle: "Contact Us",
+        contactInfo: "For orders and inquiries, please call:",
+        callUs: "+91XXXXXXXXXX",
+        visitUs: "You can also visit our farm at:",
+        address: "[Farm Address Here]",
+        footerText: "© 2024 Ghalyan Pig & Fish Farm | All rights reserved"
+    },
+    hi: {
+        welcome: "घल्यान पिग और फिश फार्म में आपका स्वागत है",
+        aboutUsTitle: "हमारे बारे में",
+        aboutUsText: "हम सीधे हमारे फार्म से ताजे और उच्च गुणवत्ता वाले अंडे प्रदान करते हैं। थोक ऑर्डर के लिए हमें कॉल करें या हमारे फार्म पर आएं। आपका संतोष और स्वास्थ्य हमारी प्राथमिकता है।",
+        contactUsTitle: "हमसे संपर्क करें",
+        contactInfo: "ऑर्डर और पूछताछ के लिए कृपया कॉल करें:",
+        callUs: "+91XXXXXXXXXX",
+        visitUs: "आप हमारे फार्म पर भी आ सकते हैं:",
+        address: "[फार्म का पता यहां]",
+        footerText: "© 2024 घल्यान पिग और फिश फार्म | सर्वाधिकार सुरक्षित"
+    }
+};
+
+function setLanguage(lang) {
+    document.getElementById('welcome-text').innerText = texts[lang].welcome;
+    document.getElementById('about-us-title').innerText = texts[lang].aboutUsTitle;
+    document.getElementById('about-us-text').innerText = texts[lang].aboutUsText;
+    document.getElementById('contact-us-title').innerText = texts[lang].contactUsTitle;
+    document.getElementById('contact-info').innerText = texts[lang].contactInfo;
+    document.getElementById('call-us').innerText = texts[lang].callUs;
+    document.getElementById('visit-us').innerText = texts[lang].visitUs;
+    document.getElementById('address').innerText = texts[lang].address;
+    document.getElementById('footer-text').innerText = texts[lang].footerText;
+}
